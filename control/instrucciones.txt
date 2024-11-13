@@ -1,0 +1,6 @@
+pip3 install pywhatkit
+pip3 install pyautogui
+
+ejecute el programa y coloque en su navegador la siguiente url http://<IPv4 de su pc>:8000
+
+para obtener la IPv4 solo coloque ipconfig en la terminal

@@ -1,0 +1,31 @@
+
+**Nombres de fuentes:**
+1. Arial
+2. Helvetica
+3. Times New Roman
+4. Courier New
+5. Verdana
+6. Georgia
+7. Comic Sans MS
+8. Tahoma
+9. Palatino
+10. Impact
+
+**Estilos:**
+1. "normal" o "" (sin estilo adicional)
+2. "bold" (negrita)
+3. "italic" (cursiva)
+4. "underline" (subrayado)
+5. "overstrike" (tachado)
+
+Puedes combinar nombres de fuentes con estilos y tamaños según tus preferencias. Por ejemplo:
+
+- Arial, tamaño 12, negrita:
+  ```python
+  font=("Arial", 12, "bold")
+  ```
+
+- Times New Roman, tamaño 14, cursiva:
+  ```python
+  font=("Times New Roman", 14, "italic")
+  ```

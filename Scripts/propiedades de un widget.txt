@@ -1,0 +1,53 @@
+Configuraciones generales:
+
+bg o background: Define el color de fondo del widget.
+fg o foreground: Define el color del texto o del contorno del widget.
+
+
+Propiedades de tamaño y posición:
+
+width, height: Define el ancho y alto del widget.
+padx, pady: Márgenes horizontales y verticales alrededor del contenido del widget.
+relief: Define el estilo del contorno del widget (por ejemplo, "flat", "raised", "sunken").
+
+
+Texto y Fuente:
+
+text: Establece el texto dentro del widget.
+font: Define la fuente del texto.
+
+
+Propiedades específicas de Entry (Cuadro de entrada) y Text (Área de texto):
+
+show: Puede utilizarse en Entry para mostrar caracteres diferentes (por ejemplo, para contraseñas).
+state: Puede ser "normal", "disabled" o "readonly" para controlar la capacidad de edición.
+
+
+Propiedades específicas de Listbox (Lista):
+
+selectmode: Controla el modo de selección (por ejemplo, "single" o "multiple").
+activestyle: Define el estilo de la entrada activa (por ejemplo, "dotbox" o "underline").
+
+
+Botones (Button):
+
+command: Especifica la función que se ejecuta cuando el botón se presiona.
+image: Permite mostrar una imagen en lugar de texto.
+compound: Controla cómo se combinan la imagen y el texto (por ejemplo, "top", "left", "right", "bottom").
+
+
+Frames (Marco):
+
+relief: Define el estilo del contorno del marco.
+borderwidth o bd: Ancho del borde del marco.
+
+
+Configuraciones de Ventana:
+
+title: Establece el título de la ventana.
+geometry: Define la geometría inicial de la ventana (por ejemplo, "widthxheight+x+y").
+
+
+Scrollbar (Barra de desplazamiento):
+
+orient: Puede ser "horizontal" o "vertical" para especificar la orientación de la barra de desplazamiento.

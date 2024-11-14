@@ -2,7 +2,7 @@ import json
 import math
 import time
 
-fileName='resultados.json'
+fileName='Scripts\Lectura y escritura de archivos\\calculadora.json'
 
 def GuardarResultado(operacion, resultado):
     horario = time.strftime('%Y-%m-%d %H:%M:%S')
@@ -50,7 +50,7 @@ def potenciar(a,b):
     return a ** b
 
 def menu():
-    with open('menu.txt','r', encoding='utf-8') as archivo:#abro el archivo y lo recorro en modo lectura
+    with open('Scripts\lectura y escritura de archivos\menu.txt','r', encoding='utf-8') as archivo:#abro el archivo y lo recorro en modo lectura
         contenido = archivo.read()
     print(contenido)
 

@@ -15,7 +15,7 @@ y = f(x)
 plt.plot(x, y)
 
 # Agregamos título y etiquetas
-plt.title('Gráfica de la función f(x) = x^2 + 2x + 1')
+plt.title(f'Gráfica de la función:')
 plt.xlabel('x')
 plt.ylabel('f(x)')
 

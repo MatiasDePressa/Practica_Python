@@ -1,4 +1,4 @@
-with open('Archivo.txt','r', encoding='utf-8') as archivo:#abro el archivo y lo recorro en modo lectura
+with open('Scripts\Lectura y escritura de archivos\Archivo.txt','r', encoding='utf-8') as archivo:#abro el archivo y lo recorro en modo lectura
     contenido = archivo.readlines() #leo el archivo
 
 print(contenido)

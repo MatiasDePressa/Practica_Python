@@ -1,6 +1,6 @@
 import json
 
-with open('archivo.json','r') as iteraciones:
+with open('Scripts\Lectura y escritura de archivos\persona.json','r') as iteraciones:
     datos = json.load(iteraciones)
 
 print(datos)

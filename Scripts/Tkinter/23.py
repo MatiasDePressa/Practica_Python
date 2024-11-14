@@ -5,7 +5,7 @@ ventana = tk.Tk()
 ventana.title("ejemplo de textos")
 ventana.geometry(f'500x500')
 
-imagen_fondo = tk.PhotoImage(file="clase 4\imagen.png")
+imagen_fondo = tk.PhotoImage(file="Scripts\\Tkinter\imagen.png")
 etiqueta_fondo=tk.Label(ventana, image=imagen_fondo)
 etiqueta_fondo.place(x=0, y=0, relwidth=1, relheight=1)
 
